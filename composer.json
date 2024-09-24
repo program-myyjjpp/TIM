@@ -1,0 +1,7 @@
+{
+    "require": {
+        "overtrue/pinyin": "^4.1",
+        "intervention/image": "^2.7",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}

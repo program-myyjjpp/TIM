@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1085" viewBox="0 0 1920 1085">
+    <defs>
+        <path id="a" d="M0 0h1920v1085H0z"/>
+        <linearGradient id="b" x1="-.082%" x2="119.592%" y1="70.484%" y2="48.46%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#F2F2F2"/>
+        </linearGradient>
+        <linearGradient id="d" x1="-35.177%" x2="156.068%" y1="40.225%" y2="87.696%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#CCC" stop-opacity=".416"/>
+        </linearGradient>
+        <linearGradient id="e" x1="6.158%" x2="78.218%" y1="25.355%" y2="63.324%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#EBEBEB"/>
+        </linearGradient>
+        <linearGradient id="f" x1="85.1%" x2="113.145%" y1="63.296%" y2="62.522%">
+            <stop offset="0%" stop-color="#F8F8F8"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <linearGradient id="g" x1="49.827%" x2="49.827%" y1="75.41%" y2="100%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity="0"/>
+            <stop offset="64%" stop-color="#FFF" stop-opacity=".919"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="c" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <path fill="url(#b)" fill-rule="nonzero" d="M839.017-247c-2.801 266.295 339.994 116.766 229.336 481.288-110.655 364.522 287.713 135.172 483.702 429.773 208.57 313.515 397.895 210.729 397.895 210.729V-242.296L839.017-247z" mask="url(#c)"/>
+        <path fill="url(#d)" fill-rule="nonzero" d="M1292.777-28s-92.43 311.377 219.904 284.483c243.716-20.986 160.387 250.421 407.593 158.098V3.715L1292.777-28z" mask="url(#c)" opacity=".46"/>
+        <path fill="url(#e)" fill-rule="nonzero" d="M-97.223 586s-92.43 311.377 219.904 284.483c243.716-20.986 160.387 250.421 407.593 158.098V617.715L-97.223 586z" mask="url(#c)" opacity=".46" transform="rotate(180 210.137 816.9)"/>
+        <path fill="url(#f)" fill-rule="nonzero" d="M-1 1084.97c95.245-54.097 303.47-24.741 349.12-188.41 68.684-246.24 233.555-14.923 283.98-294.725 47.078-261.25 453.814 179.067 487.43-279.835v774.74L-1 1084.97z" mask="url(#c)" transform="matrix(-1 0 0 1 1118.53 0)"/>
+        <path fill="url(#g)" d="M-1 0h1920v1085H-1z" mask="url(#c)"/>
+    </g>
+</svg>

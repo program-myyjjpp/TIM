@@ -1,0 +1,5 @@
+User-agent: * 
+Allow: / 
+Sitemap: https://91kuihjbb.net/sitemap.xml
+Sitemap: https://91kuihjbb.net/sitemap.html
+Sitemap: https://91kuihjbb.net/sitemap.txt
