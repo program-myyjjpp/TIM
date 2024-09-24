@@ -14,4 +14,4 @@
 - TOKEN自定义  `token.php`.
 
 ## 安装篇
-- [宝塔安装教程](https://github.com/assimon/dujiaoka/wiki/2.x_bt_install)
+- [宝塔安装教程](https://github.com/program-myyjjpp/TIM/wiki)
