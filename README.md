@@ -12,7 +12,7 @@
 ## 更新
 - 新增TOKEN认证,站点操作所有权归站长本人.
 - TOKEN自定义  `token.php`.
-- 替换方法为,留下本身的`themes`,`muban`,`content`.
+
 
 ## 安装篇
 - [宝塔安装教程](https://github.com/program-myyjjpp/TIM/wiki)
