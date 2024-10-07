@@ -55,21 +55,23 @@ INSERT INTO `echo_admin` (`id`, `username`, `kind`, `psd`, `lasttime`, `lastip`,
 --
 
 CREATE TABLE `echo_article` (
-  `id` int NOT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
   `posttime` int DEFAULT '0',
   `cid` int DEFAULT '0',
   `adminuid` int DEFAULT '0',
-  `title` varchar(250) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
-  `keywords` varchar(250) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
-  `description` text CHARACTER SET utf8 COLLATE utf8_general_ci,
+  `title` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `keywords` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `shijian` int DEFAULT NULL,
   `aorder` int DEFAULT NULL,
-  `pic` varchar(250) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
-  `pics` text CHARACTER SET utf8 COLLATE utf8_general_ci,
-  `content` text CHARACTER SET utf8 COLLATE utf8_general_ci,
-  `tag` varchar(250) CHARACTER SET utf8 COLLATE utf8_general_ci DEFAULT NULL,
-  `click` int DEFAULT NULL
+  `pic` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `pics` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
+  `tag` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `click` int DEFAULT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
 
 -- --------------------------------------------------------
 
