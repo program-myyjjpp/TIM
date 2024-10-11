@@ -64,13 +64,12 @@ CREATE TABLE `echo_article` (
   `description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `shijian` int DEFAULT NULL,
   `aorder` int DEFAULT NULL,
-  `pic` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `pic` varchar(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `pics` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `tag` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
-  `click` int DEFAULT NULL,
+  `click` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
 
 -- --------------------------------------------------------
 
@@ -141,17 +140,17 @@ CREATE TABLE `echo_moudle` (
 
 INSERT INTO `echo_moudle` (`id`, `cid`, `fid`, `mname`, `minfo`, `mcontent`, `mkind`, `morder`, `ifcreated`, `ifshow`, `ifonly`, `ifadmin`, `ifmore`, `hide`, `ifshowtemp`, `strarray`, `msetting`, `strdefault`, `mfunction`) VALUES
 (1, 3, '', 'title', '标题', '', 1, 5, 1, 1, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1,\"adminsearch\":1}', '', NULL),
-(2, 3, '', 'keywords', '关键词	', '', 1, 10, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
+(2, 3, '', 'keywords', '关键词 ', '', 1, 10, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
 (3, 3, '', 'description', '描述', '', 2, 15, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
 (4, 3, '', 'shijian', '时间', '', 9, 20, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', 'now', NULL),
 (5, 3, '', 'aorder', '排序', '', 7, 25, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '1', NULL),
 (6, 3, '', 'pic', '图片', '', 5, 30, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
-(7, 3, '', 'pics', '多图	', '', 6, 35, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
-(8, 3, '', 'content', '内容	', '', 4, 40, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
+(7, 3, '', 'pics', '多图  ', '', 6, 35, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
+(8, 3, '', 'content', '内容 ', '', 4, 40, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
 (9, 3, '', 'tag', '标签', '', 1, 45, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
 (10, 3, '', 'click', '点击量', '', 7, 50, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '1', NULL),
 (11, 4, '', 'title', '标题', '', 1, 5, 1, 1, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1,\"adminsearch\":1}', '', NULL),
-(12, 4, '', 'keywords', '关键词	', '', 1, 10, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
+(12, 4, '', 'keywords', '关键词  ', '', 1, 10, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
 (13, 4, '', 'description', '描述', '', 2, 15, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '', NULL),
 (14, 4, '', 'shijian', '时间', '', 9, 20, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', 'now', NULL),
 (15, 4, '', 'aorder', '排序', '', 7, 25, 1, 0, 0, 0, NULL, 0, '', NULL, '{\"filterhtml\":1}', '1', NULL),
