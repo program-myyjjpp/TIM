@@ -55,7 +55,7 @@ INSERT INTO `echo_admin` (`id`, `username`, `kind`, `psd`, `lasttime`, `lastip`,
 --
 
 CREATE TABLE `echo_article` (
-  `id` int NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL,
   `posttime` int DEFAULT '0',
   `cid` int DEFAULT '0',
   `adminuid` int DEFAULT '0',
@@ -69,7 +69,6 @@ CREATE TABLE `echo_article` (
   `content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci,
   `tag` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `click` int DEFAULT NULL,
-  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
