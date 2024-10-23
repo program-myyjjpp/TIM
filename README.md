@@ -18,4 +18,4 @@
 - [宝塔安装教程](https://github.com/program-myyjjpp/TIM/wiki)
 
 ## 联系方式
-<a href="https://t.me/myyjjpp"><img src="https://img.shields.io/badge/Telegram-MYYJJPP-0088cc" alt="Telegram: myyjjpp"></a>
+<a href="https://t.me/myyjjpp"><img src="https://img.shields.io/badge/Telegram-点击这里-0088cc" alt="Telegram: myyjjpp"></a>
