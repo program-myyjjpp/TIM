@@ -1,4 +1,4 @@
-<p align="center"><img src="[https://www.qqkw.com/d/file/p/2018/07-04/d488059ba32df251629b1b6d52686cf4.jpg](http://pic.imeitou.com/uploads/allimg/221027/8-22102GAT7-50.jpg)" width="400"></p>
+<p align="center"><img src="http://pic.imeitou.com/uploads/allimg/221027/8-22102GAT7-50.jpg" width="400"></p>
 
 <p align="center">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue" alt="license MIT"></a>
